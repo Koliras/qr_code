@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit';
+}
+
+.container {
+  margin: auto;
+  width: 250px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+img {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.maintxt {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.littletxt {
+  padding-bottom: 15px;
+}
